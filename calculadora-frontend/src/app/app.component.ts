@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  numeroUm: number = 2;
-  numeroDois: number = 10;
+  numeroUm: number = 0;
+  numeroDois: number = 0;
   operacao: string = 'SOMA';
 
   response: any = {};
